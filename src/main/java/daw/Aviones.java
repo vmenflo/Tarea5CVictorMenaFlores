@@ -35,6 +35,7 @@ public class Aviones {
     }
     
     //GETTER and SETTER
+    //Estos son los getter and setter de mi proyecto
 
     public String getModelo() {
         return modelo;

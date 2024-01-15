@@ -62,7 +62,7 @@ public class Aviones {
     }
     
     //To String
-
+    //comentario de to string
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -75,7 +75,7 @@ public class Aviones {
     }
     
     //Equals y Hash
-
+    //Comentario de Equals
     @Override
     public int hashCode() {
         int hash = 3;

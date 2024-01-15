@@ -27,6 +27,13 @@ public class Aviones {
         this.longitud = longitud;
     }
     
+    //Metodo copia
+    public Aviones(Aviones origen) {
+        this.modelo = origen.modelo;
+        this.origenFabricacion = origen.origenFabricacion;
+        this.longitud = origen.longitud;
+    }
+    
     //GETTER and SETTER
 
     public String getModelo() {
